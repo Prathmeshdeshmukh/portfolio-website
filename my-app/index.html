@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <!-- <a href="#portfolio">portfolio</a> -->
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Prathmesh Deshmukh</h1>
+        <h3>And I'm <span>Full-stack Developer.</span></h3>
+        <p>
+          "Recent Graduate with Proficiency in Frontend and Backend Development,
+          Skilled in JavaScript, React, and Node.js"
+        </p>
+        <div class="social-media">
+          <a href="https://twitter.com/Prathme64269166" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/prathmesh.deshmukh__/"
+            target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/prathmesh-deshmukh-b39005236/"
+            target="_blank"
+            ><i class="bx bxl-linkedin-square"></i
+          ></a>
+          <a href="https://github.com/Prathmeshdeshmukh" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <a href="img/Prathmesh D Resume.pdf" download class="btn"
+          >Download Resume</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="img/pic.png" alt="img" srcset="" />
+      </div>
+    </section>
+
+    <!-- about-section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/about-img.png" alt="" srcset="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>me</span></h2>
+        <h3>Full-stack Developer</h3>
+        <p>
+          I completed degree (B.E Comps) from Lokmanya Tilak College of
+          engineering with 8.5 cgpa. I have hands-on experience with
+          technologies like React.js, MongoDB, MySQL, Node.js, and Express. I've
+          worked on several projects where I utilized these technologies to
+          build responsive and user-friendly web applications. I enjoy the
+          flexibility and scalability that these technologies offer, and I'm
+          eager to continue learning and exploring new frameworks and tools in
+          this ever-evolving field.
+        </p>
+        <a href="#" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!-- services-sectio    -->
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <div class="projects-container">
+        <div class="projects-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Twitter Clone - Full stack Project</h3>
+          <p>
+            Developed a Twitter clone, leveraging modern web technologies such
+            as React, Redux, Node.js, and MongoDB. This full-stack project
+            followed an MVC architecture and utilized RESTful APIs for seamless
+            communication between the front-end and back-end. I implemented user
+            authentication using JSON Web Tokens (JWT) for secure access to
+            protected resources. The project showcased my proficiency in
+            building scalable and efficient web applications, as well as my
+            skills in front-end development with React and back-end development
+            with Node.js and MongoDB.
+          </p>
+          <a href="https://github.com/Prathmeshdeshmukh/Twitter_Dev" class="btn"
+            >Github</a
+          >
+        </div>
+
+        <div class="projects-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Airline Booking System - Back-end Project</h3>
+          <p>
+            An airline booking system that enables users to search for flights,
+            book tickets, and manage their reservations. The project was built
+            using JavaScript on the backend with an Express server. The
+            application followed the Model-View-Controller (MVC) design pattern,
+            providing a structured and maintainable codebase that can be easily
+            scaled.
+          </p>
+          <a
+            href="https://github.com/Prathmeshdeshmukh/flightsAndSearchService"
+            class="btn"
+            >Github</a
+          >
+        </div>
+
+        <div class="projects-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Chat app</h3>
+          <p>
+            Developed a real-time chat application using JavaScript, Socket.io,
+            and Bootstrap for the frontend. The application allows users to
+            enter chat rooms for group communication without the need for page
+            reloads. Socket.io, a JavaScript library, facilitates real-time
+            bidirectional communication between the server and clients, enabling
+            instant message updates within the chat rooms.
+          </p>
+          <a href="https://github.com/Prathmeshdeshmukh/Chat_app" class="btn"
+            >Github</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section  -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form
+        action="https://getform.io/f/6f606d0f-61c5-4261-b468-fc7f2173c26b"
+        method="post"
+      >
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Full Name" />
+          <input type="email" name="email" placeholder="Email Address" />
+        </div>
+
+        <!-- <div class="input-box">
+          <input type="number" name="number" placeholder="Mobile Number" />
+          <input type="text" name="subject" placeholder="Email subject" />
+        </div> -->
+        <textarea
+          name="txt"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by PD | All Rights Reserved</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>
